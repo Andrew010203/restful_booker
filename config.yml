@@ -2,20 +2,20 @@ name: API TESTS
 
 on: workflow_dispatch
 
-# jobs:
-#   ui-tests:
-#     runs-on: ubuntu-latest
+jobs:
+  ui-tests:
+    runs-on: ubuntu-latest
 
-#     steps:
-#       - uses: actions/checkout@v2
+    steps:
+      - uses: actions/checkout@v2
 
-#       - name: Checkout (copy) gh-pages repository to GitHub runner
-#         uses: actions/checkout@v2
-#         with:
-#           ref: gh-pages
-#           path: ./.github/gh-pages
+      - name: Checkout (copy) gh-pages repository to GitHub runner
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: ./.github/gh-pages
 
-#       - name: Run API TESTS via docker-compose
+      - name: Run API TESTS via docker-compose
 #         env:
 # #          LOGIN: ${{ secrets.LOGIN }}
 # #          PASSWORD: ${{ secrets.PASSWORD }}
