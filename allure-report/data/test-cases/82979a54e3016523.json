@@ -1,0 +1,134 @@
+{
+  "uid" : "82979a54e3016523",
+  "name" : "test_get_bookingids",
+  "fullName" : "tests.test_get_bookingids.TestGetBookingids#test_get_bookingids",
+  "historyId" : "1b470d8ebf20076afd217b2e0fb3c496",
+  "time" : {
+    "start" : 1739442144898,
+    "stop" : 1739442146183,
+    "duration" : 1285
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "create_booking",
+    "time" : {
+      "start" : 1739442144007,
+      "stop" : 1739442144897,
+      "duration" : 890
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1739442134157,
+      "stop" : 1739442134159,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Returns the ids of all the bookings",
+      "time" : {
+        "start" : 1739442144899,
+        "stop" : 1739442146183,
+        "duration" : 1284
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "create_booking::0",
+    "time" : {
+      "start" : 1739442146184,
+      "stop" : 1739442146185,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_bookingids"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGetBookingids"
+  }, {
+    "name" : "host",
+    "value" : "79d6c129c521"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_get_bookingids"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f296f0da62f34556",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739363971062,
+        "stop" : 1739363972271,
+        "duration" : 1209
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82979a54e3016523.json",
+  "parameterValues" : [ ]
+}

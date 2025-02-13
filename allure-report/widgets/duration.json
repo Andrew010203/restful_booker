@@ -1,0 +1,71 @@
+[ {
+  "uid" : "82979a54e3016523",
+  "name" : "test_get_bookingids",
+  "time" : {
+    "start" : 1739442144898,
+    "stop" : 1739442146183,
+    "duration" : 1285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "318f1e5286aa90fc",
+  "name" : "test_get_booking_id",
+  "time" : {
+    "start" : 1739442142610,
+    "stop" : 1739442143778,
+    "duration" : 1168
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "27f5d7d4621e25ea",
+  "name" : "test_delete_booking",
+  "time" : {
+    "start" : 1739442139730,
+    "stop" : 1739442141450,
+    "duration" : 1720
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6496f1075a15eb5c",
+  "name" : "test_create_token",
+  "time" : {
+    "start" : 1739442137980,
+    "stop" : 1739442138850,
+    "duration" : 870
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f049c4ffb49b7b7",
+  "name" : "test_partial_update_booking",
+  "time" : {
+    "start" : 1739442147058,
+    "stop" : 1739442147936,
+    "duration" : 878
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c7c73d957513553",
+  "name" : "test_create_booking",
+  "time" : {
+    "start" : 1739442136250,
+    "stop" : 1739442137091,
+    "duration" : 841
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e5ca96fc7ccdf2c",
+  "name" : "test_update_booking",
+  "time" : {
+    "start" : 1739442148892,
+    "stop" : 1739442149893,
+    "duration" : 1001
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

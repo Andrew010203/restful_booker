@@ -1,0 +1,1 @@
+{"uuid": "1d2e4167-c100-4173-8533-cf29bddd6800", "children": ["06f1f8ea-6d3d-451e-adce-f08ac08d4c96"], "befores": [{"name": "create_booking", "status": "passed", "start": 1739442310878, "stop": 1739442311766}], "afters": [{"name": "create_booking::0", "status": "passed", "start": 1739442312845, "stop": 1739442312845}], "start": 1739442310878, "stop": 1739442312845}
